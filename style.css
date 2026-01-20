@@ -74,6 +74,16 @@ nav a:hover {
 }
 
 /* =========================
+   Campus Banner Image
+   ========================= */
+.campus-banner img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================
    Hero Section
    ========================= */
 .hero {
@@ -81,6 +91,10 @@ nav a:hover {
     color: white;
     padding: 60px 20px;
     text-align: center;
+}
+
+.hero h2 {
+    margin-top: 0;
 }
 
 /* =========================
@@ -101,7 +115,7 @@ ul {
 }
 
 /* =========================
-   Footer (Sticky Bottom)
+   Footer (Always Bottom)
    ========================= */
 footer {
     background-color: #002147;
